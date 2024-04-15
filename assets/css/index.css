@@ -1,0 +1,41 @@
+/* Your code here */
+body {
+    text-align: center;
+}
+
+.grid {
+    border-spacing: 5px;
+    margin: auto;
+}
+
+.cell {
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+
+.missed {
+    background-color: red;
+}
+
+.hit {
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+}
+
+.gameOver {
+    color: darkgreen;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.invisible {
+    display: none;
+}
+
+.resetButton {
+    font-size: 20px;
+    margin: 10px;
+}
